@@ -1,3 +1,6 @@
+import string
+import math
+
 #zad 1
 wiek = int(input("Wprowadź wiek klienta: "))
 if wiek > 18:
@@ -10,8 +13,9 @@ else:
     cena = 10
     print(f'Cena biletu: {cena}')
 
+input("Press any key to continue...")
+
 #zad 2
-import string
 print(string.ascii_lowercase)
 alfabet_m = list(string.ascii_lowercase)
 alfabet_d = list(string.ascii_uppercase)
@@ -20,6 +24,8 @@ if litera in alfabet_d:
     print("Duża litera")
 else:
     print("Mała litera")
+
+input("Press any key to continue...")
 
 #zad 3
 print("Prosty Kalkulator")
@@ -45,8 +51,10 @@ elif operator == "/":
 else:
     print("Error: Operator nie został znaleziony")
 
+input("Press any key to continue...")
+
 #zad 4
-import math
+
 a = float(input('a = '))
 b = float(input('b = '))
 c = float(input('c = '))
@@ -61,6 +69,9 @@ elif delta == 0:
     print(f'x0 = {x0}')
 else:
     print(f'brak rozwiązań')
+
+input("Press any key to continue...")
+
 
 #zad 5
 x = float(input('a = '))
@@ -81,3 +92,4 @@ elif z < y and y < x:
     print(f'Kolejność rosnąca {z},{y},{x}')
 
 
+input("Press any key to continue...")

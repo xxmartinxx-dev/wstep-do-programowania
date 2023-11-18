@@ -45,7 +45,7 @@ print("Pole prostokąta =", pole, "Obwód prostokąta =", obwod)
 input("Press any key to continue...")
 
 
-# zad 4 skrypt pobiera od uzytkownika drogę oraz średnie spalanie (na 100km) i przewiduje zużycie paliwa
+# zad 4 skrypt pobiera od użzytkownika drogę oraz średnie spalanie (na 100km) i przewiduje zużycie paliwa
 
 print("Obliczamy zużycie paliwa - podaj dane")
 

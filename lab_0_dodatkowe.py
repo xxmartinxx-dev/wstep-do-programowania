@@ -1,3 +1,4 @@
+import math
 #ZADANIA DODATKOWE
 #zad 1 obliczamy równanie liniowe, współczynniki a i b podaje użytkownik
 print("Skrypt oblicza równanie liniowe, gdzie a i b podaje użytkownik")
@@ -11,17 +12,20 @@ if a == 0:
 else:
     x = -b/a
     print('x =', x)
+
+input("Press any key to continue...")
+
 #zad 2 Obliczamy pole trójkąta
 print("Skrypt oblicza pole trójkąta różnobocznego ze wzoru na 3 boki, podaj ich wartość")
 c = float(input('c = '))
 d = float(input('d = '))
 e = float(input('e = '))
 p=(a+b+c)/2
-import math
 
 Pole = round(math.sqrt(p*(p-c)*(p-d)*(p-e)),2)
 print("Pole trójkąta:", Pole)
 
+import math
 
 #zad 3 Kalkulator
 print("Skrypt oblicza podstawowe działania na 2 podanych przez użytkownika liczbach:")
