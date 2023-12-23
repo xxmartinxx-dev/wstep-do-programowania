@@ -1,3 +1,46 @@
+#zad1 Stwórz listę z imionami 4 osób.
+list = ["Martyna", "Nina", "Lena", "Laura"]
+#a Posortuj ją alfabetycznie i wyświetl,
+list = sorted(list)
+
+#b Dodaj na końcu dwie osoby i pobierz ostatnią z nich poleceniem pop()
+list.append("jola")
+list.append("kasia")
+print(list)
+print(list.pop())
+print(list)
+#c Na pozycji 3 dodaj jeszcze jedną osobę,
+list.insert(3,"Wiola")
+print(list)
+#d Odwróć kolejność na liście i zdubluj ją.
+list.reverse()
+print(list)
+nowa_lista = list
+print(list)
+print(nowa_lista)
+
+#zad 2Dla łańcucha tekst = "Rzeszów jest piękny" wyświetl:
+tekst = "Rzeszów jest piękny"
+#Pierwszą literę w tekście,
+print(tekst[1])
+# Siódmą, dziesiątą, trzynastą oraz drugą.
+print(tekst[7],tekst[10],tekst[13], tekst[2])
+
+#zad 3.	Wyświetl z łańcucha tekst ="Python jest super" znaki o indeksach:
+tekst ="Python jest super"
+#Zerowym
+print(tekst[0])
+#Ostatnim
+print(tekst[-1])
+#Co drugi, zaczynając od zerowego
+print(tekst[0:-1:2])
+#Co trzeci zaczynając od pierwszego
+print(tekst[1:-1:3])
+#Od dziesiątego do ostatniego
+print(tekst[10:])
+#Wyświetl od końca do początku
+print(tekst[0:])
+
 #zad 2.	Dla łańcucha tekst = "Rzeszów jest piękny" wyświetl:
 #Pierwszą literę w tekście,
 # Siódmą, dziesiątą, trzynastą oraz drugą.
