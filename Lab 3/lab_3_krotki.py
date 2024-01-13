@@ -1,4 +1,4 @@
-'''import random
+import random
 import string
 
 n = int(input("Podaj liczbę n: "))
@@ -81,7 +81,7 @@ if wartosc_ostatniego_miesiaca > srednia:
     print("Zacznij oszczędzać")
 else:
     print("Jesteś bezpieczny")
-'''
+
 import random
 
 # Generowanie losowych wartości a i b z przedziału <3, 7>

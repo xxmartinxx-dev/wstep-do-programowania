@@ -1,4 +1,4 @@
-'''import random
+import random
 
 # Poproś użytkownika o podanie pięciu cyfr rozdzielonych przecinkiem
 user_input = input("Podaj pięć cyfr rozdzielonych przecinkiem: ")
@@ -23,7 +23,7 @@ else:
     elif selected_number == max(numbers):
         print(f"Wylosowana liczba {selected_number} jest największą z podanych liczb.")
     else:
-        print(f"Wylosowana liczba to {selected_number}.")'''
+        print(f"Wylosowana liczba to {selected_number}.")
 # Rozmiar pola gry
 szerokosc = 6
 wysokosc = 5
